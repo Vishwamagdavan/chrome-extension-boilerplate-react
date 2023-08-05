@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Chrome Extension with React & Webpack",
-  "description": "A chrome extension boilerplate built with React 17, Webpack 5, and Webpack Dev Server 4",
+  "name": "Dev-tool box",
+  "description": "collection of dev tools",
   "options_page": "options.html",
   "background": { "service_worker": "background.bundle.js" },
   "action": {
@@ -9,7 +9,7 @@
     "default_icon": "icon-34.png"
   },
   "chrome_url_overrides": {
-    "newtab": "newtab.html"
+    
   },
   "icons": {
     "128": "icon-128.png"
